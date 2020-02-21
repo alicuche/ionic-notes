@@ -15,6 +15,26 @@ adb devices # real devices & simulator devices
 `ln ./platforms/android/build/outputs/apk/android-debug.apk ./platforms/android/app/build/outputs/apk/debug/app-debug.apk`
 
 ### xcode
+1. xcode-select
 xcode-select: error: tool 'xcodebuild' requires Xcode, but active developer directory '/Library/Developer/CommandLineTools' is a command line tools instance
 
 `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer`
+
+2. /usr/local/bin/node
+dyld: Library not loaded: /usr/local/opt/icu4c/lib/libicui18n.63.dylib
+  Referenced from: /usr/local/bin/node
+  Reason: image not found
+  
+`brew upgrade npm`
+
+3. ios version
+Error: Cannot read property 'toLowerCase' of undefined
+[ERROR] An error occurred while running subprocess cordova.
+
+`npm install --save cordova-ios@5.0.0 / latest`
+
+4. cordova version
+[ERROR] An error occurred while running subprocess cordova.
+cordova platform add ios exited with exit code 1.
+
+`npm install -g cordova@8.1.2`
