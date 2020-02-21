@@ -7,8 +7,11 @@ ionic cordova build android / ios
 adb devices # real devices & simulator devices
 
 # Debug
-### Chrome
-`chrome://devices` -> select `inspect`
+### Android / Chrome
+![image](https://i.imgur.com/2P7LzV6.png)
+### IOS / Safari
+![image](https://i.imgur.com/FKkXT3K.jpg)
+
 
 # Issues
 ### no search file or directory, open: `...app-debug.apk`
