@@ -31,7 +31,10 @@ dyld: Library not loaded: /usr/local/opt/icu4c/lib/libicui18n.63.dylib
 Error: Cannot read property 'toLowerCase' of undefined
 [ERROR] An error occurred while running subprocess cordova.
 
-`npm install --save cordova-ios@5.0.0 / latest`
+```
+cordova platform rm ios
+cordova platform add ios@5.1.1
+```
 
 4. cordova version
 [ERROR] An error occurred while running subprocess cordova.
