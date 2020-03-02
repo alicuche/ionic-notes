@@ -35,8 +35,8 @@ Error: Cannot read property 'toLowerCase' of undefined
 [ERROR] An error occurred while running subprocess cordova.
 
 ```
-cordova platform rm ios
-cordova platform add ios@5.1.1
+ionic cordova platform rm ios
+ionic cordova platform add ios@5.1.1
 ```
 
 4. cordova version
